@@ -18,7 +18,7 @@ from langchain_community.document_loaders import Docx2txtLoader
 
 # CONSTANTS
 DIGITRANSIT_URL = "https://api.digitransit.fi/routing/v2/hsl/gtfs/v1"
-DIGITRANSIT_KEY = "8e123f7af3234915ae543a30ba488ac7"  # <-- Paste your active Digitransit API key token here
+DIGITRANSIT_KEY = ""  # <-- Paste your active Digitransit API key token here
 DOCX_FILE = "hsl_policy_terms.docx"
 INDEX_DIR = "faiss_hsl_index"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
