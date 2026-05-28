@@ -1,0 +1,17 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local Vector Database Index (Do not push to GitHub)
+faiss_hsl_index/
+
+# Local Word document source files (Optional - remove if you want to back it up)
+hsl_policy_terms.docx
+
+# Operating system files
+.DS_Store
+Thumbs.db
