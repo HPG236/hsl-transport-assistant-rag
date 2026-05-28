@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
 HSL Transport Assistant RAG - Panel Dashboard UI
-Author: Haripriya
-Date: May 2026
 
 Serves the multi-tab user interface using local Llama 3.1 8B via Ollama and
 cross-tab force synchronization for references and raw history metrics.
