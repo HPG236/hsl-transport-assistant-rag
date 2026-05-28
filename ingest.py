@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 """
 HSL Transport Assistant RAG - Ingestion Pipeline
-Author: Haripriya
-Date: May 2026
-
 Handles data pulling from the Digitransit GraphQL API, parsing transit routes,
 loading local policy terms, chunking via recursive text splitting, and 
 compiling/saving a local FAISS vector store database.
@@ -23,7 +20,7 @@ from langchain_community.document_loaders import Docx2txtLoader
 # CONFIGURATION & CONSTANTS
 # =====================================================================
 DIGITRANSIT_URL = "https://api.digitransit.fi/routing/v2/hsl/gtfs/v1"
-DIGITRANSIT_KEY = "8e123f7af3234915ae543a30ba488ac7"  # <-- Paste your active Digitransit API key token here
+DIGITRANSIT_KEY = ""  # <-- Paste your active Digitransit API key token here
 DOCX_FILE = "hsl_policy_terms.docx"
 INDEX_DIR = "faiss_hsl_index"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
