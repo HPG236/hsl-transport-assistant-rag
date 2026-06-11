@@ -37,7 +37,7 @@ class HSLTransportDashboard:
         self.last_sources = "No vector documents retrieved yet."
         
         # 3. Load Local FAISS Vector Store Index
-        self.index_dir = "faiss_hsl_index"
+        self.index_dir = "../faiss_hsl_index"
         try:
             self.vectorstore = FAISS.load_local(
                 self.index_dir,
